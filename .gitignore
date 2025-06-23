@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+# Ignore test reports
+test-output/
+ExtentReport/
+
+# Ignore IDE settings
+=======
+# Eclipse/IDE files
+>>>>>>> ab818b5 (Update .gitignore and testing configuration)
+.classpath
+.project
+.settings/
+
+<<<<<<< HEAD
+# Ignore build artifacts
+target/
+*.class
+
+# Ignore temp and lock files
+*.log
+*.tmp
+*.swp
+~$*
+
+# Ignore Excel temp files
+test-data/~$*
+
+#Ignore xml
+*.xml
+=======
+# Maven/Gradle build output
+target/
+
+# Test reports
+test-output/
+ExtentReport/
+*.html
+*.xml
+
+# Excel temp files
+~$*.xlsx
+>>>>>>> ab818b5 (Update .gitignore and testing configuration)
